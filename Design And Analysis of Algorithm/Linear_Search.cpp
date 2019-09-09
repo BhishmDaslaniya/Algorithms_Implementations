@@ -12,6 +12,11 @@ int linearSearch(int arr[],int sz,int ele){
         }
         c++;
     }
+    if(c == sz){
+        return 0;
+    }else{
+        return 1;
+    }
 }
 
 int main()
