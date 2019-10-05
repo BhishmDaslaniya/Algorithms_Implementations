@@ -15,7 +15,7 @@ ll BNMCOEF(ll n,ll k){
         }
     }
     
-    cout<<" ---------------------------------------"<<endl;
+    cout<<"---------------------------------------"<<endl;
 
     for(ll i = 0 ; i <= n ; i++){
         for(ll j = 0; j <= k ; j++ ){
@@ -30,6 +30,7 @@ int main(){
     ll n,k;
     cout<<"Enter n and k for compute nCk : ";
     cin>>n>>k;
-    cout<<"value of "<<n<<"C"<<k<<" : "<<BNMCOEF(n,k)<<endl;
+    ll ans = BNMCOEF(n,k);
+    cout<<"value of "<<n<<"C"<<k<<" : "<< ans<<endl;
     return 0;
 }

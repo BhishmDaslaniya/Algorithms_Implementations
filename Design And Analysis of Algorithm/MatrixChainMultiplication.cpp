@@ -2,8 +2,6 @@
 using namespace std;
 typedef long long ll;
 
-// Source : https://www.geeksforgeeks.org/printing-brackets-matrix-chain-multiplication-problem/
-
 void printParenthesis(int i, int j, int n, int *bracket, char &name){ 
     if (i == j){ 
         cout << name++; 
